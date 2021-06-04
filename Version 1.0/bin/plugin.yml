@@ -1,0 +1,31 @@
+name: EasyHolograms
+main: de.HappyBavarian07.EasyHolograms.EasyHolograms
+api-version: 1.13
+version: 1.0
+author: HappyBavarian07
+commands:
+  hologram:
+    usage: /hologram <add|edit|remove|list|reload|help> (more info /holo help)
+    description: This is the Main Command of the Plugin
+    aliases: [holo]
+
+permissions:
+  easyholo.*:
+    default: op
+    children:
+      easyholo.add: true
+      easyholo.edit.*:
+        default: op
+        children:
+          easyholo.edit.addline: true
+          easyholo.edit.editline: true
+          easyholo.edit.removeline: true
+          easyholo.edit.listlines: true
+      easyholo.remove: true
+      easyholo.list: true
+      easyholo.help: true
+      easyholo.reload:
+        default: op
+        children:
+          easyholo.reload.config: true
+          easyholo.reload.holograms: true

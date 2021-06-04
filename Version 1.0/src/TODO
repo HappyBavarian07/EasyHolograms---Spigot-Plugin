@@ -1,0 +1,21 @@
+/*
+* 
+* Commands:
+* /holo <add|edit|remove|list> <range|holoname> args7
+* 
+* Permissions:
+* zu commands passend.
+* 
+* /holo add functions:
+* 1. Fügt ein neues Hologram hinzu.
+* 2. Setzt den Text auf §7Edit the Holo §b<holoname> §7with §b/holo edit <holoname>
+* 
+* /holo edit functions:
+* 1. Chat GUI: Add, Edit, List Lines, Remove Line ...
+
+* /holo remove functions:
+* 1. Löscht das angegebene Hologram
+* 
+* /holo list functions:
+* 1. List all Holograms in the Distance
+*/
